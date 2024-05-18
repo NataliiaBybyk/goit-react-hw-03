@@ -1,12 +1,24 @@
 .searchBoxContainer {
   margin-bottom: 15px;
-  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .searchBoxInput {
   width: 400px;
   padding: 10px;
-
   border-radius: 4px;
   border: 3px solid #f08080;
+
+  outline: none;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.searchBoxInput:focus {
+  border: 3px solid #f2edf0;
+  background-color: #f8c5e4;
+}
+
+.title {
+  color: #252929;
 }

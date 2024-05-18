@@ -1,19 +1,11 @@
 /* App.css */
 
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(219, 52, 7, 0.1);
-}
-
 h1 {
   text-align: center;
-  margin-bottom: 20px;
-  color: #f5f0f0;
-  font-size: 40px;
+  color: #252929;
+  font-size: 60px;
+  padding: 20px;
+  text-shadow: -3px -1px 0 rgb(225, 222, 225);
 }
 
 .formContainer {

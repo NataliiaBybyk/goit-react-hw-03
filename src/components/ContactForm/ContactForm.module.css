@@ -5,25 +5,25 @@
   flex-direction: column;
   width: 400px;
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(29, 101, 86, 0.6);
   border: 3px solid #f08080;
   border-radius: 4px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
-  color: #f08080;
+  color: #252929;
+
   font-size: 20px;
 }
 
 .inputField {
   width: 100%;
   padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  border: 2px solid #f08080;
   border-radius: 4px;
 }
 
@@ -34,6 +34,10 @@
 }
 
 .submitButton {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
   padding: 8px 12px;
   font: inherit;
   cursor: pointer;
@@ -47,5 +51,11 @@
 }
 
 .submitButton:hover {
-  background-color: #505858;
+  border: 3px solid #f3f0f2;
+  background-color: #fabfe1;
+}
+
+.inputField:hover {
+  border: 3px solid #f3f0f2;
+  background-color: #fabfe1;
 }
