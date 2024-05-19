@@ -1,7 +1,6 @@
 /* App.css */
 
 h1 {
-  margin: 0 auto;
   text-align: center;
   color: #252929;
   font-size: 60px;
@@ -11,10 +10,12 @@ h1 {
 
 .formContainer {
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .searchBoxContainer {
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .searchBoxInput {
