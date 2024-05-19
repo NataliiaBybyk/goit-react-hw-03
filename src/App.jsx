@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import css from './App.module.css';
+import './App.module.css';
 import ContactList from './components/ContactList/ContactList';
 import SearchBox from './components/SearchBox/SearchBox';
 import ContactForm from './components/ContactForm/ContactForm';
@@ -32,7 +32,7 @@ function App() {
   );
 
   return (
-    <div formContainer>
+    <div className={css.formContainer}>
       <h1>Phonebook</h1>
       <ContactForm onAddContact={addContact} />
       <SearchBox value={filter} onFilter={setFilter} />
