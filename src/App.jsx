@@ -32,7 +32,7 @@ function App() {
   );
 
   return (
-    <div className={css.container}>
+    <div>
       <h1>Phonebook</h1>
       <ContactForm onAddContact={addContact} />
       <SearchBox value={filter} onFilter={setFilter} />
