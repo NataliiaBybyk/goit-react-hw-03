@@ -11,7 +11,10 @@ const FeedbackSchema = Yup.object().shape({
     .max(50, 'Too Long!')
     .required('Required'),
   number: Yup.string()
-    .matches(/^\d{3}-\d{2}-\d{2}$/, 'Must be a valid number ххх-хх-хх!')
+    .matches(
+      /^(?:\d{7}|\d{3}-\d{2}-\d{2})$/,
+      'Phone number must be 7 digits long or in format xxx-xx-xx'
+    )
     .required('Required'),
 });
 
@@ -39,12 +42,12 @@ const ContactForm = ({ onAddContact }) => {
         </label>
         <Field
           type="text"
-          name="name"
+          name="username"
           id={nameFieldId}
           className={css.inputField}
         />
         <ErrorMessage
-          name="name"
+          name="username"
           component="span"
           className={css.errorMessage}
         />

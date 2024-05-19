@@ -2,8 +2,9 @@
 
 h1 {
   text-align: center;
-  color: #252929;
-  font-size: 60px;
+  color: #1f7777;
+
+  font-size: 70px;
   padding: 20px;
-  text-shadow: -3px -1px 0 rgb(225, 222, 225);
+  text-shadow: -3px -1px 0 rgb(26, 16, 26);
 }
