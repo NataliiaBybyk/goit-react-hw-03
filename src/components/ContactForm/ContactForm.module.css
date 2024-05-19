@@ -8,14 +8,13 @@
   background-color: rgba(29, 101, 86, 0.6);
   border: 3px solid #f08080;
   border-radius: 4px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .label {
   display: flex;
   flex-direction: column;
-  color: #252929;
-
+  color: #0d0e0e;
   font-size: 20px;
 }
 

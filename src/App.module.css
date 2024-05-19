@@ -8,24 +8,6 @@ h1 {
   text-shadow: -3px -1px 0 rgb(225, 222, 225);
 }
 
-.formContainer {
-  margin-bottom: 20px;
-  margin: 0 auto;
-}
-
-.contactList {
-  list-style: none;
-  padding: 0;
-}
-
-.contactItem {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-}
-
 .contactName {
   font-weight: bold;
 }
